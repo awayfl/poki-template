@@ -21,9 +21,9 @@ module.exports = {
 	entryPath: "./src/Main.ts", 		//	path to webpack-entry - must be set for each config (use package.main ?)
 
 	buildinsPath: path.join(__dirname, "node_modules", "@awayfl", "awayfl-player", "builtins"),	//	path to buildins - must be set when amv2 will be used
-	indexTemplate: path.join(__dirname, "node_modules", "poki-player", "template", "index_template.html"), 	//	path to game-html template - must be set
-	gameTemplate: path.join(__dirname, "node_modules", "poki-player", "template", "game_template.html"), 	//	path to index-html template - must be set
-	loaderTemplate: path.join(__dirname, "node_modules", "poki-player", "template", "loader.js"),	//	path to loader.js - must be set
+	indexTemplate: path.join(__dirname, "node_modules", "@awayfl", "poki-player", "template", "index_template.html"), 	//	path to game-html template - must be set
+	gameTemplate: path.join(__dirname, "node_modules", "@awayfl", "poki-player", "template", "game_template.html"), 	//	path to index-html template - must be set
+	loaderTemplate: path.join(__dirname, "node_modules", "@awayfl", "poki-player", "template", "loader.js"),	//	path to loader.js - must be set
 
 	//-------------------------------------------------------------------------
 	// default config for this game - can be overwritten for every file-config:
@@ -64,7 +64,7 @@ module.exports = {
 
 	],
 
-	resources: ["node_modules/poki-player/template/fonts.swf"],	// list of urls to preload (fonts) - relative to project folder
+	resources: ["node_modules/@awayfl/poki-player/template/fonts.swf"],	// list of urls to preload (fonts) - relative to project folder
 
 	assets:[
 
