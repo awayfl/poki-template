@@ -34,7 +34,7 @@ The SDK's most commonly used functions are:
  - `gameplayStart()`
  - `gameplayStop()`
 
-Use cases are described inside the examples found in [awaystudios/poki-player](https://github.com/awaystudios/poki-player#pokisdk-examples)
+Use cases are described inside the examples found in [@awayfl/poki-player](https://github.com/awayfl/poki-player#pokisdk-examples)
 
 ## Preview ##
 To run a preview of your SWFs, start up the webpack development server
