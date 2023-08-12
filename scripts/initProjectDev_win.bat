@@ -39,7 +39,7 @@ call yarn link @awayfl/playerglobal
 ECHO [32m link "@awayfl/awayfl-player" module[0m
 call yarn link @awayfl/awayfl-player
 
-ECHO [32m link "poki-player" module[0m
-call yarn link poki-player
+ECHO [32m link "@awayfl/poki-player" module[0m
+call yarn link @awayfl/poki-player
 
 PAUSE
