@@ -22,7 +22,7 @@
 		"prebuild:dev": "npm run clean:bin",
 		"build:dev": "webpack --config webpack.config.js --progress",
 		"prebuild:prod": "npm run clean:bin",
-		"build:prod": "webpack --config webpack.config.js  --progress --env.prod",
+		"build:prod": "webpack --config webpack.config.js  --progress --env prod",
 		"server": "npm run server:dev",
 		"server:dev": "webpack-dev-server --config webpack.config.js --progress --watch",
 		"server:dev:hmr": "npm run server:dev -- --hot",
