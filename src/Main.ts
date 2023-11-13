@@ -1,6 +1,6 @@
 console.debug("Poki Template - 0.0.0");
 
-import { AVMPlayerPoki } from 'poki-player'
+import { AVMPlayerPoki } from '@awayfl/poki-player'
 
 //sitelock and disabled debugger code
 //*
