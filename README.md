@@ -41,7 +41,7 @@ To run a preview of your SWFs, start up the webpack development server
 ```shell
 npm start
 ```
-Once compilation is complete, you can view your SWFs through the links at http://localhost:8080. Updating SWFs or any files in  `/src` will auto-reload the browser. However, any changes to `pokiGame.config.js` will require a restart.
+Once compilation is complete, you can view your SWFs through the links at http://localhost. Updating SWFs or any files in  `/src` will auto-reload the browser. However, any changes to `pokiGame.config.js` will require a restart.
 
 ## Publishing ##
 Once you are ready to publish a version of your game(s) for QA, you can create a new version by calling the following:
