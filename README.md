@@ -3,7 +3,7 @@ Template project for Poki conversions
 
 ## Prerequistes ##
  - git ([installation instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
- - Node.js ([installation instructions](https://nodejs.dev/learn/how-to-install-nodejs))
+ - Node.js ([installation instructions](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs))
 
 ## Installing ##
 Click the 'Use this template' button and follow the instructions to create a copy of the template in your own repository. Then checkout and install a local copy in the usual way by typing the following into a terminal / cmd prompt / shell window:
