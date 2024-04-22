@@ -1,4 +1,4 @@
-set -euo pipefail
+\set -euo pipefail
 echo [32m Links all AwayFL modules and AwayJS modules to existing checked-out source modules[0m
 read -n 1 -s -r -p "Press any key to continue"
 cd $(dirname "$0")
